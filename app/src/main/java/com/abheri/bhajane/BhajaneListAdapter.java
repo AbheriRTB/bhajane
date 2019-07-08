@@ -38,7 +38,7 @@ public class BhajaneListAdapter extends RecyclerView.Adapter<BhajaneListAdapter.
         holder.relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(view.getContext(),"click on item: "+myListData.getTitle(),Toast.LENGTH_LONG).show();
+                //Toast.makeText(view.getContext(),"click on item: "+myListData.getTitle(),Toast.LENGTH_LONG).show();
                 Intent myIntent = new Intent(context, BhajaneDisplayActivity.class);
                 myIntent.putExtra("PageSelected", position);
                 context.startActivity(myIntent);
@@ -59,7 +59,7 @@ public class BhajaneListAdapter extends RecyclerView.Adapter<BhajaneListAdapter.
         public ViewHolder(View itemView) {
             super(itemView);
             this.imageView = (ImageView) itemView.findViewById(R.id.imageView);
-            this.textView = (TextView) itemView.findViewById(R.id.textView);
+            this.textView = (TextView) itemView.findViewById(R.id.listTextView);
             relativeLayout = (RelativeLayout)itemView.findViewById(R.id.relativeLayout);
         }
     }

@@ -34,13 +34,24 @@ public class BajanePageAdapter extends RecyclerView.Adapter<BajanePageAdapter.Vi
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
         final BhajaneData myListData = listdata[position];
+        String swipeText="";
 
         String content = htmlFrontTags+ myListData.getContent()+ htmlBackTags;
 
         holder.textView.setText(myListData.getTitle());
         holder.webView.loadData(content, "text/html; charset=UTF-8", null);
         holder.relativeLayout.setBackgroundColor(myListData.getColorFilter());
-        holder.swipeTextView.setText("<<< Swipe Here >>>");
+
+        if(position == 0){
+            if(position+1 < listdata.length)
+            swipeText = listdata[position+1].getTitle() + "  <<<";
+        }else if(position == listdata.length-1){
+            swipeText = ">>>  " + listdata[listdata.length-2].getTitle();
+        }else{
+            swipeText = ">>>  " + listdata[position-1].getTitle() + "     " + listdata[position+1].getTitle() + "  <<<";
+        }
+        holder.swipeTextView.setText(swipeText);
+
 
         holder.webView.setVerticalScrollBarEnabled(false);
         //holder.webView.getSettings().setBuiltInZoomControls(true);

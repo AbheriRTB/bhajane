@@ -12,7 +12,7 @@ import java.nio.charset.StandardCharsets;
 public class Util {
 
     public static BhajaneData[] makeContent(Context context){
-        int image = R.drawable.rama_lakshmana_seethe;
+        int image = R.drawable.om_transparent_bg;
         int color = Color.parseColor("#ffffff");
         BhajaneData[] myListData;
 
@@ -22,10 +22,10 @@ public class Util {
                 {
                     new BhajaneData(ch_names[0].toString(), readPageFromAssetFile("page1.txt", context), image, color),
                     new BhajaneData(ch_names[1].toString(),readPageFromAssetFile("page2.txt", context), image,color),
-                    new BhajaneData(ch_names[2].toString(),"Page3", image, color),
-                    new BhajaneData(ch_names[3].toString(),"Page4", image, color),
-                    new BhajaneData(ch_names[4].toString(),"Page5", image, color),
-                    new BhajaneData(ch_names[5].toString(),"Page6", image, color),
+                    new BhajaneData(ch_names[2].toString(),readPageFromAssetFile("page3.txt", context), image,color),
+                    new BhajaneData(ch_names[3].toString(),readPageFromAssetFile("page4.txt", context), image,color),
+                    new BhajaneData(ch_names[4].toString(),readPageFromAssetFile("page5.txt", context), image,color),
+                    new BhajaneData(ch_names[5].toString(),readPageFromAssetFile("page6.txt", context), image,color),
                 };
 
         return myListData;
