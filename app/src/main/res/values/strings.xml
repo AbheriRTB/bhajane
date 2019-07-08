@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Bhajane</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">ನಿತ್ಯ ಭಜನೆಗಳು</string>
+    <string-array name="contents">
+        <item>ಗಣೇಶ ಶರಣಂ </item>
+        <item>ಮುದಾಕರತ್ತ  ಮೋದಕಂ</item>
+        <item>ಗಣಪತಿ ಗುಣಮಣಿ</item>
+        <item>ಶುದ್ಧಬ್ರಹ್ಮಪರಾತ್ಪರ ರಾಮ</item>
+        <item>ಮುದಾಕರತ್ತ  ಮೋದಕಂ</item>
+        <item>ಗಣಪತಿ ಗುಣಮಣಿ</item>
+        <item>ಶುದ್ಧಬ್ರಹ್ಮಪರಾತ್ಪರ ರಾಮ</item>
+
+
+
+    </string-array>
+
+
+</resources>
