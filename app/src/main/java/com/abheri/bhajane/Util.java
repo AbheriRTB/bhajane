@@ -20,12 +20,20 @@ public class Util {
         myListData =
             new BhajaneData[]
                 {
-                    new BhajaneData(ch_names[0].toString(), readPageFromAssetFile("page1.txt", context), image, color),
-                    new BhajaneData(ch_names[1].toString(),readPageFromAssetFile("page2.txt", context), image,color),
-                    new BhajaneData(ch_names[2].toString(),readPageFromAssetFile("page3.txt", context), image,color),
-                    new BhajaneData(ch_names[3].toString(),readPageFromAssetFile("page4.txt", context), image,color),
-                    new BhajaneData(ch_names[4].toString(),readPageFromAssetFile("page5.txt", context), image,color),
-                    new BhajaneData(ch_names[5].toString(),readPageFromAssetFile("page6.txt", context), image,color),
+                    new BhajaneData(ch_names[0].toString(),readPageFromAssetFile("kannada/page0.txt", context), image,color),
+                    new BhajaneData(ch_names[1].toString(),readPageFromAssetFile("kannada/page1.txt", context), image,color),
+                    new BhajaneData(ch_names[2].toString(),readPageFromAssetFile("kannada/page2.txt", context), image,color),
+                    new BhajaneData(ch_names[3].toString(),readPageFromAssetFile("kannada/page3.txt", context), image,color),
+                    new BhajaneData(ch_names[4].toString(),readPageFromAssetFile("kannada/page4.txt", context), image,color),
+                    new BhajaneData(ch_names[5].toString(),readPageFromAssetFile("kannada/page5.txt", context), image,color),
+                    new BhajaneData(ch_names[6].toString(),readPageFromAssetFile("kannada/page6.txt", context), image,color),
+                    new BhajaneData(ch_names[7].toString(),readPageFromAssetFile("kannada/page7.txt", context), image,color),
+                    new BhajaneData(ch_names[8].toString(),readPageFromAssetFile("kannada/page8.txt", context), image,color),
+                    new BhajaneData(ch_names[9].toString(),readPageFromAssetFile("kannada/page9.txt", context), image,color),
+                    new BhajaneData(ch_names[10].toString(),readPageFromAssetFile("kannada/page10.txt", context), image,color),
+                    new BhajaneData(ch_names[11].toString(),readPageFromAssetFile("kannada/page11.txt", context), image,color),
+                    new BhajaneData(ch_names[12].toString(),readPageFromAssetFile("kannada/page12.txt", context), image,color),
+                    new BhajaneData(ch_names[13].toString(),readPageFromAssetFile("kannada/page13.txt", context), image,color)
                 };
 
         return myListData;

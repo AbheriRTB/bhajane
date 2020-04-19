@@ -3,13 +3,20 @@
     <string name="action_settings">Settings</string>
     <string name="toolbar_title">ನಿತ್ಯ ಭಜನೆಗಳು</string>
     <string-array name="contents">
+        <item>ಶ್ಲೋಕಗಳು</item>
         <item>ಗಣೇಶ ಶರಣಂ </item>
         <item>ಮುದಾಕರತ್ತ  ಮೋದಕಂ</item>
         <item>ಲಿಂಗಾಷ್ಟಕಂ</item>
         <item>ವೀರ  ಮಾರುತೀ</item>
         <item>ಕೋದಂಡರಾಂ</item>
         <item>ಪ್ರೇಮ ಮುದಿತ</item>
-        <item>ಕೋದಂಡರಾಂ</item>
+        <item>ಅಂಬಿಗ ನಾ ನಿನ್ನ</item>
+        <item>ಆಂಜನೇಯ ಹನುಮಂತ</item>
+        <item>ಭಜಗೋವಿಂದಂ</item>
+        <item>ದಾಶರಥೇ</item>
+        <item>ಶುದ್ಧಬ್ರಹ್ಮ  ಪರಾತ್ಪರ ರಾಮ</item>
+        <item>ರಾಮ ಲಾಲಿ  ಮೇಘಶ್ಯಾಮ ಲಾಲಿ</item>
+        <item>ಓಂ ಮಂಗಳಂ</item>
 
 
 
